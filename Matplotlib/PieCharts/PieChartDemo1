@@ -1,0 +1,16 @@
+# Pie Cahrts Demo
+
+from matplotlib import pyplot as plt
+
+plt.style.use('fivethirtyeight')
+slices = [50,60,70,80]
+labels =['Fifty','sixty','seventy','eighty']
+#colors = ['red','blue','yellow','green']  # Red - fc4f30 , Blue - 008fd5 , yellow - e5ae37 , Green - 6d904f
+colors =['#fc4f30','#008fd5','#e5ae37','#6d904f']
+plt.pie(slices,labels=labels,colors=colors,wedgeprops={'edgecolor':'black'})
+
+plt.title('Pie Charts in Python')
+plt.tight_layout()
+plt.show()
+
+
