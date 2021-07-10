@@ -1,10 +1,11 @@
-"""num = input("Enter any number")
+# ---  TEST-1 ---
+num = input("Enter any number")
 num = int(num)
 if num%2 == 0:
     print("given number is even number")
 else:
-    print("given number is odd number") """
-
+    print("given number is odd number")
+#-- TEST-2  ----
 indian = ["rice","dal","samosa"]
 chinese = ["noodles","manchuria"]
 italian = ["pizza","burger"]
